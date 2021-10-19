@@ -35,5 +35,5 @@ models:
   stripe:
      marts:
       +materialized: table
-      staging:
-      +materialized: view
+     staging:
+      +materialized: table
